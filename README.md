@@ -83,6 +83,27 @@ These are separate concepts and are expected to differ.
 
 ---
 
+## Building the repository yourself
+
+If you prefer to **build the packages yourself** rather than consuming the
+prebuilt binaries, you can do so using the rospian build farm tooling.
+
+The full build scripts, workflows, and documentation live in:
+
+```
+git@github.com:rospian/rospian-buildfarm.git
+```
+
+That repository contains everything needed to:
+- generate Debian source packages from ROS 2 Jazzy workspaces,
+- build them using `sbuild` against Debian / Raspberry Pi OS Trixie,
+- publish the resulting `.deb` packages into a `reprepro`-managed APT repository.
+
+This repository (`rospian-repo`) contains **only the published APT artifacts**,
+not the build logic.
+
+---
+
 ## Debug symbol packages
 
 Some packages produce `*-dbgsym` packages containing debug symbols.
