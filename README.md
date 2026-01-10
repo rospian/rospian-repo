@@ -15,11 +15,24 @@ installing ROS 2 from source or from the full desktop stack is impractical.
 - **ROS distribution**: **Jazzy**
 - **Packaging**: native `.deb` packages, installable via `apt`
 
+## Packages
+
 All ROS packages are namespaced using the standard ROS convention:
 
 ```
 ros-jazzy-*
 ```
+
+The currently available variants are:
+- ros-jazzy-ros-core
+- ros-jazzy-ros-base
+
+And coming soon:
+- ros-jazzy-desktop
+- ros-jazzy-desktop-full
+- ros-jazzy-perception
+- ros-jazzy-simulation
+- ros-jazzy-ros2-control
 
 ---
 
