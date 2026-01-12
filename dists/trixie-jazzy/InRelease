@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: local
+Label: local
+Suite: stable
+Codename: trixie-jazzy
+Date: Mon, 12 Jan 2026 18:14:32 +0000
+Architectures: arm64
+Components: main
+Description: ROS2 Jazzy on Raspberry OS Trixie
+MD5Sum:
+ 6247c4feae4a914cd0bc3a45e4d3a94e 574994 main/binary-arm64/Packages
+ b5e1d92db8d4a3bb30c6a489acb6a479 147364 main/binary-arm64/Packages.gz
+ 763384066280509543e0c7032decf26d 126 main/binary-arm64/Release
+ fe1fb8e928904e397ea9c410e3b592fb 127 main/source/Release
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+SHA1:
+ f3a8fdeee531b8eceea7b3ff71c357a263afdf72 574994 main/binary-arm64/Packages
+ 52d59e93abaa9bef8d01b8e956d7c361804be688 147364 main/binary-arm64/Packages.gz
+ 04032981a7482546daa761abf03f4884c129d848 126 main/binary-arm64/Release
+ e03d3ca7b794986869f3a8d2f1cd19a9df097e56 127 main/source/Release
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+SHA256:
+ 3686bcd994164c92081f68eee2757c880094e5d3df8bd9f57ddaa5e5532a79a4 574994 main/binary-arm64/Packages
+ 428ee10e3f62c0ab725d1b42d28f529fe56c9a55df2385db465592d984b84783 147364 main/binary-arm64/Packages.gz
+ b3a1792291506696621722fbf3c0c08320c558ede438baf381a5b39bafa1d2d7 126 main/binary-arm64/Release
+ a2f2ff04c49bf54b31bf50304e255b8bffbfca041c8c75957db295111a062081 127 main/source/Release
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQQdp3N2Yowdc8OFCFTv3X3k3kEWdwUCaWU6CAAKCRDv3X3k3kEW
+dyBoAP9NQ7IVBqs89PGOv/X0xAtmDQdROVCz6phDngd+Moc4GwD8DheperdQbQqK
+CuiYDWnPCWbEzMgl45YMkQtLEtsXhQM=
+=6l44
+-----END PGP SIGNATURE-----

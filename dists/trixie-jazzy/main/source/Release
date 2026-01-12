@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: local
+Label: local
+Architecture: source
+Description: ROS2 Jazzy on Raspberry OS Trixie
