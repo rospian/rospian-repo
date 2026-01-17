@@ -27,11 +27,9 @@ The currently available variants are:
 - ros-jazzy-ros-core
 - ros-jazzy-ros-base
 - ros-jazzy-desktop
+- ros-jazzy-desktop-full
 - ros-jazzy-perception
 - ros-jazzy-ros2-control
-
-And coming soon:
-- ros-jazzy-desktop-full
 - ros-jazzy-simulation
 
 ---
