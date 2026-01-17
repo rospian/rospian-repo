@@ -213,6 +213,39 @@ MD5sum: a017396e257cc274c01e0fa3665a35db
 Description: debug symbols for ros-jazzy-actionlib-msgs
 Build-Ids: 146d2c97dc741e6b7a46cdc7a20b890b65c96bc4 19e1b640e71c34024a7a94acf96d0ce73040bacd 1c681a2855f87e9a42259148b29c4bf9ebf5e69a 5a58e21ba6c4c71baad84700428faf89add2f499 8bb9d758c394577378e7346a18b7b654134f7d23 b86b387acfe4b60480f4c96b130957ca96101b42 bb81da17e88f1e17c54af629cff0f100cf7f5500 c189f01816d64e60a53f43a3f795bde77f65fcbb e7664b0315c399ce942daa3939435c439b257e7e fa37a7544921a7f199c912bd24cdf1f119df042c fcad4b61462e58812bc37bd5d2e489f898f37281
 
+Package: ros-jazzy-actuator-msgs
+Version: 0.0.1-0trixie+20260115160722
+Architecture: arm64
+Maintainer: Benjamin Perseghetti <bperseghetti@rudislabs.com>
+Installed-Size: 1728
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libpython3.13 (>= 3.13.0~rc3), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-actuator-msgs/ros-jazzy-actuator-msgs_0.0.1-0trixie+20260115160722_arm64.deb
+Size: 94156
+SHA256: aac8d5a952930f51612fef3e8af8d1b15437d1481d4f258fe11b21dcc2ddadfb
+SHA1: 5a508f974dd89a172af79b92a2d5519d0e05793f
+MD5sum: 669309c9c469949745ee126b39d48452
+Description: ROS 2 message interface for Actuators.
+
+Package: ros-jazzy-actuator-msgs-dbgsym
+Source: ros-jazzy-actuator-msgs
+Version: 0.0.1-0trixie+20260115160722
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Benjamin Perseghetti <bperseghetti@rudislabs.com>
+Installed-Size: 1026
+Depends: ros-jazzy-actuator-msgs (= 0.0.1-0trixie+20260115160722)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-actuator-msgs/ros-jazzy-actuator-msgs-dbgsym_0.0.1-0trixie+20260115160722_arm64.deb
+Size: 836140
+SHA256: e635053da103f4d88b59c8401e55bb444d75058eac3a6a7dc806dae2dabc1ff4
+SHA1: 04027ff3f10c2bfd49462c3eb5985e138af0dbec
+MD5sum: 1fe189d5c8bed4ab95f5f6dbfd0ab4d5
+Description: debug symbols for ros-jazzy-actuator-msgs
+Build-Ids: 3ccfb7c850c03e52536c0cdcc186287e3f7e27ca 5d15c9cee255c1c7eef245566c167282c6b5de27 6b5afe3883bc6824192be5e9b6a13fd1511043e8 8c83260d659135456425b9eca66838ebda164334 8c95a14f70fc220e94bf1ddc9330405277fb8df0 9651b8dc1659d903b80a51e337e37b0d96028ba2 a0a71b66b1a90dd6f9b8f106f3c7e8327a247cdf a635627b5bfb8569b122293c682487b7f54b26b6 bb036eb6130bc5784327466ee1a21a00cab6b5d1 c4729ba3fbe8a403b3debc03cc62554e0cc62160 d590c45cde2d611b6f215139cfd2a4d3914ecfc8
+
 Package: ros-jazzy-admittance-controller
 Version: 4.36.0-0trixie+20260111173946
 Architecture: arm64
@@ -3410,6 +3443,40 @@ MD5sum: 88963fc2744f391f0febe1176b5577c3
 Description: debug symbols for ros-jazzy-gpio-controllers
 Build-Ids: 97476e064b7e3be75a711df498a7f63e8ca47104
 
+Package: ros-jazzy-gps-msgs
+Version: 2.1.1-0trixie+20260115181848
+Architecture: arm64
+Maintainer: Southwest Research Institute <swri-robotics@swri.org>
+Installed-Size: 1335
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libpython3.13 (>= 3.13.0~rc3), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs
+Homepage: http://ros.org/wiki/gps_common
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-gps-msgs/ros-jazzy-gps-msgs_2.1.1-0trixie+20260115181848_arm64.deb
+Size: 76388
+SHA256: 0bd4d562b3ae45cc18a89228c9b36296b3abda28919d705201e1efd29677442b
+SHA1: 46b5a02d1f25a039c239ed078ee82248b8c244a1
+MD5sum: da5ba847d8d43f7971b84cd75cb6a7a2
+Description: GPS messages for use in GPS drivers
+
+Package: ros-jazzy-gps-msgs-dbgsym
+Source: ros-jazzy-gps-msgs
+Version: 2.1.1-0trixie+20260115181848
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Southwest Research Institute <swri-robotics@swri.org>
+Installed-Size: 509
+Depends: ros-jazzy-gps-msgs (= 2.1.1-0trixie+20260115181848)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-gps-msgs/ros-jazzy-gps-msgs-dbgsym_2.1.1-0trixie+20260115181848_arm64.deb
+Size: 397860
+SHA256: 5866813189abb36963a811255b902565c960a440c65084db8b5bcf9c3151d085
+SHA1: 17e0712f7d86a399a6e009f88a90b4b794fb880a
+MD5sum: 34c069441b776b960588e1ebf50ea32b
+Description: debug symbols for ros-jazzy-gps-msgs
+Build-Ids: 1c3b9ac83094ca72f57b08f907afb78cea03e491 3a441500475f69f2d20a39578091809cb1e678b1 5ebb71092ba29e449b1a8b78e7420b45a47269cf 6eaccf6d9cae58754bcfa94150ed435c9dd5fdcf 7251f75b16c881b9c9d43b74fa5d9c4fa8e2936c 97319024b42ea755b24711c1a4d211909bae2dc1 9a811e0bb81a2c40b2bc84b3b2912136750cab16 9d807d14beafbe32ebdb82546909e81a0e2450d3 a13e6df7f6d35e24ced1bf59dbf8e770a66f8dcc bafc97582781bd629f56d0701af3f47a6be4a481 eef98b541c8cec1fb1b1ea53af61d52ce7515d94
+
 Package: ros-jazzy-gps-sensor-broadcaster
 Version: 4.36.0-0trixie+20260111182539
 Architecture: arm64
@@ -3442,6 +3509,90 @@ SHA1: aff9c4083c0cb9a46b3f0d8487df4d0ba4ec7f47
 MD5sum: d9438cc5ff658acd12d3e403fb1da444
 Description: debug symbols for ros-jazzy-gps-sensor-broadcaster
 Build-Ids: bfb42db25aee4b5505ee87eaa47068665ac0b530
+
+Package: ros-jazzy-gps-tools
+Version: 2.1.1-0trixie+20260115182202
+Architecture: arm64
+Maintainer: Southwest Research Institute <swri-robotics@swri.org>
+Installed-Size: 1511
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.0), libstdc++6 (>= 14), ros-jazzy-gps-msgs, ros-jazzy-nav-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rclpy, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs
+Homepage: http://ros.org/wiki/gps_common
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-gps-tools/ros-jazzy-gps-tools_2.1.1-0trixie+20260115182202_arm64.deb
+Size: 169984
+SHA256: dc2d359a40fe162129f56d788561bc96d5870915780a6b7a870f8e99bdc34d59
+SHA1: 91531ba7e055335edc1c6592dde6cad94375c379
+MD5sum: 9554eab310f6af4e83c1b00a618d971a
+Description: GPS routines for use in GPS drivers
+
+Package: ros-jazzy-gps-tools-dbgsym
+Source: ros-jazzy-gps-tools
+Version: 2.1.1-0trixie+20260115182202
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Southwest Research Institute <swri-robotics@swri.org>
+Installed-Size: 4936
+Depends: ros-jazzy-gps-tools (= 2.1.1-0trixie+20260115182202)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-gps-tools/ros-jazzy-gps-tools-dbgsym_2.1.1-0trixie+20260115182202_arm64.deb
+Size: 4402052
+SHA256: 3beb1563aad279c61368f885128bb2cdb086ad08ce5d0ea4e37ebd6768315baf
+SHA1: fabc248344a60a1abc18d454db8b87da8b4c6051
+MD5sum: 3a0ad6863cc289953a1cb138cceb427f
+Description: debug symbols for ros-jazzy-gps-tools
+Build-Ids: c95bb07ef512224fd1dcca89555845532e5bbbc4 d543d774ce84314dbc53ddf04ef4b965bef8b557
+
+Package: ros-jazzy-gps-umd
+Version: 2.1.1-0trixie+20260115182613
+Architecture: arm64
+Maintainer: Southwest Research Institute <swri-robotics@swri.org>
+Installed-Size: 44
+Depends: ros-jazzy-gps-msgs, ros-jazzy-gps-tools, ros-jazzy-gpsd-client
+Homepage: http://ros.org/wiki/gps_umd
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-gps-umd/ros-jazzy-gps-umd_2.1.1-0trixie+20260115182613_arm64.deb
+Size: 5512
+SHA256: ae95bb348b0053e5d8a412eae258f12a0911f330949cbfb685d4dafecbcd2f56
+SHA1: 227aa7fe849ac31cfc9c72ef2d78a08c4fe44c3f
+MD5sum: 3c4a13ef0617f4890be81f2d7bcabc5a
+Description: gps_umd metapackage
+
+Package: ros-jazzy-gpsd-client
+Version: 2.1.1-0trixie+20260115182839
+Architecture: arm64
+Maintainer: Southwest Research Institute <swri-robotics@swri.org>
+Installed-Size: 389
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.0), libgps30t64 (>= 3.3), libstdc++6 (>= 13.1), libgps-dev, pkg-config, ros-jazzy-gps-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs
+Homepage: http://ros.org/wiki/gpsd_client
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-gpsd-client/ros-jazzy-gpsd-client_2.1.1-0trixie+20260115182839_arm64.deb
+Size: 71588
+SHA256: d598a476e186e8fc6c2a591ca37029b5a7fba66008bcb8cc768a1a6ce0ec3c18
+SHA1: 5a4c8c2e09359f71d04d542ceb750f13fd403e34
+MD5sum: aa5433f865769682253b57dcafe0f9fd
+Description: connects to a GPSd server and broadcasts GPS fixes using the NavSatFix message
+
+Package: ros-jazzy-gpsd-client-dbgsym
+Source: ros-jazzy-gpsd-client
+Version: 2.1.1-0trixie+20260115182839
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Southwest Research Institute <swri-robotics@swri.org>
+Installed-Size: 1286
+Depends: ros-jazzy-gpsd-client (= 2.1.1-0trixie+20260115182839)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-gpsd-client/ros-jazzy-gpsd-client-dbgsym_2.1.1-0trixie+20260115182839_arm64.deb
+Size: 1199920
+SHA256: d316a1b6c50775e5e858a0bb2b2d2e5bd77c3c8bad979df3870c77870247ce69
+SHA1: 863c3c1760c7b52b8dcf68f2220fd3f8dfa0d037
+MD5sum: 80c1135acb7e5bbb61f4c7d76607692a
+Description: debug symbols for ros-jazzy-gpsd-client
+Build-Ids: e436ba269a09f55234546833db41eb5f9b09be13
 
 Package: ros-jazzy-gripper-controllers
 Version: 4.36.0-0trixie+20260111183137
@@ -3492,19 +3643,189 @@ MD5sum: 73f81a1a53a6abcb2b4ce919c23b01d5
 Description: The package provides GoogleTest.
 
 Package: ros-jazzy-gz-cmake-vendor
-Version: 0.0.10-0trixie+20260111143422
+Version: 0.0.10-0trixie+20260113091354
 Architecture: arm64
 Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
 Installed-Size: 1970
 Homepage: https://github.com/gazebosim/gz-cmake
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-jazzy-gz-cmake-vendor/ros-jazzy-gz-cmake-vendor_0.0.10-0trixie+20260111143422_arm64.deb
+Filename: pool/main/r/ros-jazzy-gz-cmake-vendor/ros-jazzy-gz-cmake-vendor_0.0.10-0trixie+20260113091354_arm64.deb
 Size: 198856
-SHA256: 1b1a950129018446998663d57fc4ac1b17292e28c87d8dcb9e214a841562bcda
-SHA1: e31b1b0f701c90c09fbc7213fb02b1576d918858
-MD5sum: dfc45b07826563cf0299e095638ffe0c
+SHA256: b7c19112e4182dfb8b49a10e99504c36ab558501f3c5e95c301c6f3f53d67237
+SHA1: 78a56b1ed5ee6f8e9a84d2d479b3ab5502dde0ca
+MD5sum: 28a29c9a3283c164c33a788e91947b68
 Description: Vendor package for: gz-cmake3 3.5.5 Gazebo CMake : CMake Modules for Gazebo Projects
+
+Package: ros-jazzy-gz-common-vendor
+Version: 0.0.8-0trixie+20260114081608
+Architecture: arm64
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Installed-Size: 2962
+Depends: libassimp5 (>= 5.4.3+ds), libavcodec61 (>= 7:7.0), libavdevice61 (>= 7:7.0), libavformat61 (>= 7:7.0), libavutil59 (>= 7:7.0), libc6 (>= 2.38), libfreeimage3 (>= 3.18.0+ds2), libgcc-s1 (>= 3.0), libgdal36 (>= 3.9.3), libglib2.0-0t64 (>= 2.12.0), libgts-0.7-5t64 (>= 0.7.6), libstdc++6 (>= 13.1), libswscale8 (>= 7:7.0), libtinyxml2-11 (>= 11.0.0), libuuid1 (>= 2.16), ros-jazzy-gz-math-vendor, libassimp-dev, libavcodec-dev, libavdevice-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libfreeimage-dev, libgdal-dev, libgts-dev, libpostproc-dev, libswresample-dev, libswscale-dev, libtinyxml2-dev, ros-jazzy-gz-cmake-vendor, ros-jazzy-gz-utils-vendor, uuid-dev
+Homepage: https://github.com/gazebosim/gz-common
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-gz-common-vendor/ros-jazzy-gz-common-vendor_0.0.8-0trixie+20260114081608_arm64.deb
+Size: 606952
+SHA256: b491189734b8f3b39bfc52f6a20e1472962515f50d0d189bf9efa50dafddd633
+SHA1: 2a2e7a8798fffeb9840d50c1670d2fbf4e7a482b
+MD5sum: 7db20be6c36cc6e5437351d8abf9648d
+Description: Vendor package for: gz-common5 5.7.1 Gazebo Common : AV, Graphics, Events, and much more.
+
+Package: ros-jazzy-gz-common-vendor-dbgsym
+Source: ros-jazzy-gz-common-vendor
+Version: 0.0.8-0trixie+20260114081608
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Installed-Size: 8738
+Depends: ros-jazzy-gz-common-vendor (= 0.0.8-0trixie+20260114081608)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-gz-common-vendor/ros-jazzy-gz-common-vendor-dbgsym_0.0.8-0trixie+20260114081608_arm64.deb
+Size: 8542004
+SHA256: a3f7d0e8e42a32630acb4b23733fc958d8b8e663a4010104d3893977e75ab7e6
+SHA1: bbe5df183e852fa3c90610ce758b100df00b267d
+MD5sum: 0c9b6ddf1882fa6b3a3604620d0d017c
+Description: debug symbols for ros-jazzy-gz-common-vendor
+Build-Ids: 1a8c62b59d597cd6f495613a099c685c538f51c2 4d32e604f455f9ed4371546cb91a07a0d9f17cfb 7662a0098f4335a17d0385ce02cf43a804738c9a 7cf3b2f4c6abd72515454ce04de1602b75fdc7b6 9fde9f3005b2cecbad7a22cde5038adb29d38343 a242e42a374fbd1f90ab164e86eabe292d011e67 ca8ce534931f3f126b300285338ace490d525960 ee328f5d63e8cfedd29264221eb29e7ae2c50707
+
+Package: ros-jazzy-gz-dartsim-vendor
+Version: 0.0.3-0trixie+20260113165821
+Architecture: arm64
+Maintainer: Addisu Taddese <addisu@intrinsic.ai>
+Installed-Size: 47633
+Depends: libassimp5 (>= 5.4.3+ds), libbullet3.24t64 (>= 3.24+dfsg), libc6 (>= 2.38), libfcl0.7 (>= 0.7.0), libgcc-s1 (>= 4.5), liboctomap1.9t64 (>= 1.9.7+dfsg), libode8t64 (>= 2:0.16.6), libstdc++6 (>= 14), libtinyxml2-11 (>= 11.0.0), liburdfdom-model4.0 (>= 4.0.0), libassimp-dev, libboost-dev, libboost-regex-dev, libboost-system-dev, libbullet-dev, libccd-dev, libeigen3-dev, libfcl-dev, libfmt-dev, liblz4-dev, libode-dev, libtinyxml2-dev, liburdfdom-dev, lz4
+Homepage: https://dartsim.github.io/
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-gz-dartsim-vendor/ros-jazzy-gz-dartsim-vendor_0.0.3-0trixie+20260113165821_arm64.deb
+Size: 11359972
+SHA256: a4d4949d9d45610a4aca667aa1f7000c3af4e2d84fd55bf273d80c008aa32f6c
+SHA1: 0f9f5e1035c8241cd56fab845f945f8f3ea83716
+MD5sum: 0da0c3d96afd6a4b1b1cfa8bd86a20cc
+Description: Vendor package for the DART physics engine v6.13.2
+
+Package: ros-jazzy-gz-dartsim-vendor-dbgsym
+Source: ros-jazzy-gz-dartsim-vendor
+Version: 0.0.3-0trixie+20260113165821
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Addisu Taddese <addisu@intrinsic.ai>
+Installed-Size: 116464
+Depends: ros-jazzy-gz-dartsim-vendor (= 0.0.3-0trixie+20260113165821)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-gz-dartsim-vendor/ros-jazzy-gz-dartsim-vendor-dbgsym_0.0.3-0trixie+20260113165821_arm64.deb
+Size: 116223288
+SHA256: 1866186cd78f8066af88431432de1f9af922fdc82312ebf74f6e7347d05fa9fc
+SHA1: 75d24598f552346553b2e6475a668be0b1e7335b
+MD5sum: 9dd2939cdae871ca560177556201654b
+Description: debug symbols for ros-jazzy-gz-dartsim-vendor
+Build-Ids: 181a0b11436615eb558fe0edcbeb28335eb80309 1e0f8b1a35f9b5a52f310d2ae04aa0cea5a0554b 6e8d90faccc7efbf0d6b98c292f3cc51f1ca8386 7ffb7967c1fb40932ce1c4e8e544f648b8805460 a8502c83d953a6f95719efa3de5b619f809c661b d7e9643190a2367e42999afb7cba6cc7d800f75e fd84960ec7e8b31c9849e92e825d69f773f0a816
+
+Package: ros-jazzy-gz-fuel-tools-vendor
+Version: 0.0.6-0trixie+20260114155457
+Architecture: arm64
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Installed-Size: 962
+Depends: libc6 (>= 2.38), libcurl4t64 (>= 7.56.1), libgcc-s1 (>= 3.0), libjsoncpp26 (>= 1.9.6), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1), libtinyxml2-11 (>= 11.0.0), libyaml-0-2, libzip5 (>= 0.11.2), ros-jazzy-gz-common-vendor, ros-jazzy-gz-math-vendor, ros-jazzy-gz-msgs-vendor, libcurl4-openssl-dev, libgflags-dev, libjsoncpp-dev, libtinyxml2-dev, libyaml-dev, libzip-dev, ros-jazzy-gz-cmake-vendor, ros-jazzy-gz-tools-vendor, ros-jazzy-gz-utils-vendor
+Homepage: https://github.com/gazebosim/gz-fuel-tools
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-gz-fuel-tools-vendor/ros-jazzy-gz-fuel-tools-vendor_0.0.6-0trixie+20260114155457_arm64.deb
+Size: 221004
+SHA256: cdbcf23582f716bae15bceed3ef50911c4c5fb07e5a1692940e9da2d4d4c3d27
+SHA1: b93ff2f554bd37361dfde2ffb8e3ee0801181d2d
+MD5sum: fe3cd0e198fb141409cd36d66bc22b66
+Description: Vendor package for: gz-fuel_tools9 9.1.1 Gazebo Fuel Tools: Classes and tools for interacting with Gazebo Fuel
+
+Package: ros-jazzy-gz-fuel-tools-vendor-dbgsym
+Source: ros-jazzy-gz-fuel-tools-vendor
+Version: 0.0.6-0trixie+20260114155457
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Installed-Size: 4777
+Depends: ros-jazzy-gz-fuel-tools-vendor (= 0.0.6-0trixie+20260114155457)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-gz-fuel-tools-vendor/ros-jazzy-gz-fuel-tools-vendor-dbgsym_0.0.6-0trixie+20260114155457_arm64.deb
+Size: 4743656
+SHA256: 1890954835bbf69b4c245fe4a10fa6794771d0881db8a068be241dcdff5ae356
+SHA1: 1ffeb51fcda283d9fe400d93a470251d91cb59f6
+MD5sum: 5bf4478064ced2ecafa130449d78b26f
+Description: debug symbols for ros-jazzy-gz-fuel-tools-vendor
+Build-Ids: 76725e460a9850c945f7031000246160c1805c88
+
+Package: ros-jazzy-gz-gui-vendor
+Version: 0.0.5-0trixie+20260114174331
+Architecture: arm64
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Installed-Size: 3989
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libprotobuf32t64 (>= 3.21.12), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.11.1) | libqt5gui5-gles (>= 5.11.1), libqt5qml5 (>= 5.9.0~beta), libqt5quick5 (>= 5.14.1) | libqt5quick5-gles (>= 5.14.1), libqt5widgets5t64 (>= 5.0.2), libstdc++6 (>= 14), libtinyxml2-11 (>= 11.0.0), ros-jazzy-gz-common-vendor, ros-jazzy-gz-math-vendor, ros-jazzy-gz-msgs-vendor, ros-jazzy-gz-plugin-vendor, ros-jazzy-gz-rendering-vendor, ros-jazzy-gz-transport-vendor, libprotobuf-dev, libprotoc-dev, libqt5core5a, libqt5quick5, libqt5widgets5, libtinyxml2-dev, protobuf-compiler, qml-module-qt-labs-folderlistmodel, qml-module-qt-labs-platform, qml-module-qt-labs-settings, qml-module-qtcharts, qml-module-qtgraphicaleffects, qml-module-qtlocation, qml-module-qtpositioning, qml-module-qtquick-controls, qml-module-qtquick-controls2, qml-module-qtquick-dialogs, qml-module-qtquick-extras, qml-module-qtquick-layouts, qml-module-qtquick-templates2, qml-module-qtquick-window2, qml-module-qtquick2, qtbase5-dev, qtdeclarative5-dev, qtquickcontrols2-5-dev, ros-jazzy-gz-cmake-vendor, ros-jazzy-gz-tools-vendor, ros-jazzy-gz-utils-vendor
+Homepage: https://github.com/gazebosim/gz-rendering
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-gz-gui-vendor/ros-jazzy-gz-gui-vendor_0.0.5-0trixie+20260114174331_arm64.deb
+Size: 608716
+SHA256: c8eca4495c15a26399d0424d29059b15aed435efc2666f26f79943aa7616e700
+SHA1: e6aec0b63da0fc7e714f9f8ca3d31eb4dc53526c
+MD5sum: 707bc16e833b4681656c0627f2417d85
+Description: Vendor package for: gz-gui8 8.4.0 Gazebo GUI : Graphical interfaces for robotics applications
+
+Package: ros-jazzy-gz-gui-vendor-dbgsym
+Source: ros-jazzy-gz-gui-vendor
+Version: 0.0.5-0trixie+20260114174331
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Installed-Size: 26265
+Depends: ros-jazzy-gz-gui-vendor (= 0.0.5-0trixie+20260114174331)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-gz-gui-vendor/ros-jazzy-gz-gui-vendor-dbgsym_0.0.5-0trixie+20260114174331_arm64.deb
+Size: 25904108
+SHA256: 5bc17f908272e60dc051a43d3ea4df08d699509210334f7134b763bf04d69038
+SHA1: 2d1b71baefd9f4733ed973e8a483b0ee2bb98e92
+MD5sum: 334210cf6841bb8a466a7f0e98ce1f25
+Description: debug symbols for ros-jazzy-gz-gui-vendor
+Build-Ids: 05a52616cc5fa7ca760326309fec165e11382f24 140ef8b429a14d74dd6609b2e44069ea1d6c943e 157be50fe3a81bcfd47e90da98fc2b283e746b0a 2cad21fb75ed795d5dc50882c2d6550a1ed7dabd 3ac73ea13f1fa7cf1ddcae13b489bf855ad8f7dc 7b744b743e4e1abe052e149047015d5f6648c8a2 7eb34f6071ffbe01badbdcc73614ede87c089f25 7fbb9c7274ce136794a3a2c39af401dad191d4e8 891344c4f71df45a4b52a8fdb299694d1fd1d96e 8928b380985b29cd5cd120bf1a69e692db40f21a 8dc4fd371c9c53fc543867f8d76504a6894278d5 9e7e1dd9f524346b149c5040f697a41ffc0afbfb a179f6d10acbdad526845a94d05ae065e30413be ad05ca285a958e7e1f1bd14bb2da75918ae525dc bee1860b7c02e88a632e9ed191eb2b384f3f1298 c3d0c239bbca9b2ead8311575d5cf52da9dd6107 cf84ef2e01740aeddbfe021bf8fbd2e38321d7d4 d905132bac18ccc17c19515a5b31af61f8eabbf3 eb3cd8b8587185f585dd7fa78587451f7e7b2963 f742f1f24c7eefc711fa2601cacefa9e33e8b3fc f77a0f8f456057fca5bac70f277643729772ce28 fa477b9275c573aebd6eba0e50dfaa8425fdb1bc fd21e292683035231e39ad14e1a774cf83623064
+
+Package: ros-jazzy-gz-launch-vendor
+Version: 0.0.5-0trixie+20260115153523
+Architecture: arm64
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Installed-Size: 1217
+Depends: libbinutils (>= 2.44), libbinutils (<< 2.44.1), libc6 (>= 2.38), libgcc-s1 (>= 4.2), libprotobuf32t64 (>= 3.21.12), libqt5core5t64 (>= 5.0.2), libqt5gui5t64 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5widgets5t64 (>= 5.0.2), libstdc++6 (>= 14), libtinyxml2-11 (>= 11.0.0), libwebsockets19t64 (>= 1.7.0), ros-jazzy-gz-common-vendor, ros-jazzy-gz-gui-vendor, ros-jazzy-gz-math-vendor, ros-jazzy-gz-msgs-vendor, ros-jazzy-gz-plugin-vendor, ros-jazzy-gz-sim-vendor, ros-jazzy-gz-transport-vendor, ros-jazzy-sdformat-vendor, binutils-dev, libgflags-dev, libtinyxml2-dev, libwebsockets-dev, libxi-dev, libxmu-dev, libyaml-dev, ros-jazzy-gz-cmake-vendor, ros-jazzy-gz-tools-vendor, uuid-dev
+Homepage: https://github.com/gazebosim/gz-launch
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-gz-launch-vendor/ros-jazzy-gz-launch-vendor_0.0.5-0trixie+20260115153523_arm64.deb
+Size: 235648
+SHA256: 04a89602155f31f3ccd00b5c168a33db02e125ec92401e0bd7546910fb1a9aac
+SHA1: cd8b7d52b6e56f309e603a718f48fc523a66e272
+MD5sum: 69be21e2b431486d276053762eb03c1f
+Description: Vendor package for: gz-launch7 7.1.1 Gazebo Launch : Run and manage programs and plugins
+
+Package: ros-jazzy-gz-launch-vendor-dbgsym
+Source: ros-jazzy-gz-launch-vendor
+Version: 0.0.5-0trixie+20260115153523
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Installed-Size: 5710
+Depends: ros-jazzy-gz-launch-vendor (= 0.0.5-0trixie+20260115153523)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-gz-launch-vendor/ros-jazzy-gz-launch-vendor-dbgsym_0.0.5-0trixie+20260115153523_arm64.deb
+Size: 5265892
+SHA256: 2b43aa4c57ee672f42d67e3c43e377fd283243327287516a0db75b356e43325e
+SHA1: 03cf34286d59f7bc3f7269895dfb3b4bdc841329
+MD5sum: 354a933acb486fec567caf269257f06c
+Description: debug symbols for ros-jazzy-gz-launch-vendor
+Build-Ids: 04ebd677973064c207f12cd9ce8e2ba0f711065a 2e5be5208280504dd88222c1f4c92ff7e7d2f5a5 b8ef5f5834d6bbe8e2d32b8848b7915e4594d38d c129f8f6d1fb9e9d007b44122d9b864569608526 cc12ae7936db9e057533acc5bca9ad36ab07d703 cfa38cf68ffeb43d618486bc87dda3021b38ec50 f46d77f76a2f6806bc2bc455c74e27e3ede9bd0b f685aaacd6297f072f49ebd2f447c0950827daa0
 
 Package: ros-jazzy-gz-math-vendor
 Version: 0.0.8-0trixie+20260111145036
@@ -3540,6 +3861,244 @@ MD5sum: 6205cdbfc18284289a83f5d53da053bf
 Description: debug symbols for ros-jazzy-gz-math-vendor
 Build-Ids: f2e14f47319774884477f999425b13dbf5e789da
 
+Package: ros-jazzy-gz-msgs-vendor
+Version: 0.0.6-0trixie+20260114084905
+Architecture: arm64
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Installed-Size: 9717
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libprotobuf32t64 (>= 3.21.12), libprotoc32t64 (>= 3.21.12), libstdc++6 (>= 13.1), ros-jazzy-gz-utils-vendor, libprotobuf-dev, libprotoc-dev, libtinyxml2-dev, protobuf-compiler, python3-dev, python3-protobuf, ros-jazzy-gz-cmake-vendor, ros-jazzy-gz-math-vendor, ros-jazzy-gz-tools-vendor
+Homepage: https://github.com/gazebosim/gz-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-gz-msgs-vendor/ros-jazzy-gz-msgs-vendor_0.0.6-0trixie+20260114084905_arm64.deb
+Size: 910892
+SHA256: 2f4f88df5a3ceb4a92219238b6dd9739e2f38639bb287fd3933257e10566488b
+SHA1: fc7935fdd5fa993ea644c439adeb67fee4aa9b7c
+MD5sum: 995885e59ce22c588ea67c9b09958953
+Description: Vendor package for: gz-msgs10 10.3.2 Gazebo Messages: Protobuf messages and functions for robot applications
+
+Package: ros-jazzy-gz-msgs-vendor-dbgsym
+Source: ros-jazzy-gz-msgs-vendor
+Version: 0.0.6-0trixie+20260114084905
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Installed-Size: 26584
+Depends: ros-jazzy-gz-msgs-vendor (= 0.0.6-0trixie+20260114084905)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-gz-msgs-vendor/ros-jazzy-gz-msgs-vendor-dbgsym_0.0.6-0trixie+20260114084905_arm64.deb
+Size: 25591924
+SHA256: 2394a5024f3ab57565ae48b6beafa0a79e1533a2c266af49d0518020bc6c9cc5
+SHA1: 261ab696ac36a8f7ffc87e78ed425a5f1f47bc80
+MD5sum: fb7b03846473f6218c83c8f38e24f61b
+Description: debug symbols for ros-jazzy-gz-msgs-vendor
+Build-Ids: 9332db077471c9d7a50b568e0a866a907051a55a f62c0b3ca208bb6f2c9ff9d9d7bfcfd72a3a2e71
+
+Package: ros-jazzy-gz-ogre-next-vendor
+Version: 0.0.5-0trixie+20260113163737
+Architecture: arm64
+Maintainer: Michael Carroll <mjcarroll@intrinsic.ai>
+Installed-Size: 18860
+Depends: libc6 (>= 2.38), libegl1, libfreeimage3 (>= 3.18.0+ds2), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libgl1, libstdc++6 (>= 14), libvulkan1 (>= 1.2.131.2), libx11-6, libx11-xcb1, libxaw7 (>= 2:1.0.16), libxcb-randr0 (>= 1.1), libxrandr2 (>= 2:1.2.0), libxt6t64, libzzip-0-13t64 (>= 0.13.56), zlib1g (>= 1:1.1.4), glslang-dev, glslc, libboost-date-time-dev, libboost-dev, libboost-thread-dev, libfreeimage-dev, libfreetype-dev, libgl1-mesa-dev, libglu1-mesa-dev, libpoco-dev, libsdl2-dev, libshaderc-dev, libtbb-dev, libtinyxml2-dev, libvulkan-dev, libx11-dev, libx11-xcb-dev, libxaw7-dev, libxcb-randr0-dev, libxrandr-dev, libzzip-dev, rapidjson-dev
+Homepage: https://www.ogre3d.org/
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-gz-ogre-next-vendor/ros-jazzy-gz-ogre-next-vendor_0.0.5-0trixie+20260113163737_arm64.deb
+Size: 3460212
+SHA256: eb6f9085b6000092adb41db2f43cb665031024ca15d8f328fc8f3135255220ab
+SHA1: 5e33169b790d362ad815b62184420a53284093c3
+MD5sum: e9dc8e39105b8f7197603f53e690b520
+Description: Vendor package for Ogre-next v2.3.3
+
+Package: ros-jazzy-gz-ogre-next-vendor-dbgsym
+Source: ros-jazzy-gz-ogre-next-vendor
+Version: 0.0.5-0trixie+20260113163737
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Michael Carroll <mjcarroll@intrinsic.ai>
+Installed-Size: 64916
+Depends: ros-jazzy-gz-ogre-next-vendor (= 0.0.5-0trixie+20260113163737)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-gz-ogre-next-vendor/ros-jazzy-gz-ogre-next-vendor-dbgsym_0.0.5-0trixie+20260113163737_arm64.deb
+Size: 63659892
+SHA256: aec784554edd0cd94860f429f335af189ceea5c9bd4b7ab9aa09f402c7d5b7ee
+SHA1: 18588191ef45a7ebc7806a7a1353acf9f76816aa
+MD5sum: f5675aacb1bddd6b61e714a17761d701
+Description: debug symbols for ros-jazzy-gz-ogre-next-vendor
+Build-Ids: 0d91fe8ba3664f8351bab349100aeae206f3e897 2906ccca7e31cbc39e4c8992cbdf1e1dbbc48b02 443f5d73463e245664705264296ec12f19c3f187 46992f671acc437c5516ba679a745d30bb73b16e 53c6ea0b674c6fa5f2f1c58cf0480832f75ec421 733b0cf1b84f005bd47978ae33492166beb28ce0 7f030d3f4059e46e30bc66ce9b26b0b474251165 a8c65cd76786458225e2a5399b23e4fa78a214e5 a99d7093dfe7be3437bfa30dcd16fb0394d9e4ec d33e5e90a8a3859aaad5cf96d6fe7a7d435fd6a3 f51c49cbb5940c9d31d0dd2a58b5c071eda8f091 fa9b5382176244f2b5132a6c7b05db8dcfea2ac8 fc326f0578355979b1f0b832d63d8688901c1c8f
+
+Package: ros-jazzy-gz-physics-vendor
+Version: 0.0.7-0trixie+20260114183139
+Architecture: arm64
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Installed-Size: 7072
+Depends: libbullet3.24t64 (>= 3.24+dfsg), libc6 (>= 2.32), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), ros-jazzy-gz-common-vendor, ros-jazzy-gz-math-vendor, ros-jazzy-sdformat-vendor, libbenchmark-dev, libbullet-dev, libeigen3-dev, ros-jazzy-gz-cmake-vendor, ros-jazzy-gz-dartsim-vendor, ros-jazzy-gz-plugin-vendor, ros-jazzy-gz-utils-vendor
+Homepage: https://github.com/gazebosim/gz-physics
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-gz-physics-vendor/ros-jazzy-gz-physics-vendor_0.0.7-0trixie+20260114183139_arm64.deb
+Size: 465732
+SHA256: f2e18a507b71ee600dc5573be8a81677977bcb8cab34a71c04625e7b4dc8f1da
+SHA1: e837a16104854a8320307f6a16dd83da4a677353
+MD5sum: a0c9b5313612972a91b4c0bc69017ea8
+Description: Vendor package for: gz-physics7 7.6.0 Gazebo Physics : Physics classes and functions for robot applications
+
+Package: ros-jazzy-gz-physics-vendor-dbgsym
+Source: ros-jazzy-gz-physics-vendor
+Version: 0.0.7-0trixie+20260114183139
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Installed-Size: 16782
+Depends: ros-jazzy-gz-physics-vendor (= 0.0.7-0trixie+20260114183139)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-gz-physics-vendor/ros-jazzy-gz-physics-vendor-dbgsym_0.0.7-0trixie+20260114183139_arm64.deb
+Size: 15543632
+SHA256: c11e2888d3ff87733084297e2e58e6132a4a5680d4e564ac6b1c825ce71c5a42
+SHA1: 01f0edc8585ec013079b18b99f2482e78fb73510
+MD5sum: 6da4997ddb366019ec4d9cb7912da30b
+Description: debug symbols for ros-jazzy-gz-physics-vendor
+Build-Ids: 0078a354429bd4a7a64f57db381f5a28ee2a6fe5 474ba07b3841867ab2bafa7378283000bb2259fb c77528bc1dca38d4369d756031608e82bc2a6488 dbcc0b0af8203f408845d62aead12f4909b24edb e15eb7b8560d0ad7520aaf1e0b4563c63f606aca
+
+Package: ros-jazzy-gz-plugin-vendor
+Version: 0.0.5-0trixie+20260113183057
+Architecture: arm64
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Installed-Size: 821
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 14), ros-jazzy-gz-cmake-vendor, ros-jazzy-gz-tools-vendor, ros-jazzy-gz-utils-vendor
+Homepage: https://github.com/gazebosim/gz-plugin
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-gz-plugin-vendor/ros-jazzy-gz-plugin-vendor_0.0.5-0trixie+20260113183057_arm64.deb
+Size: 159028
+SHA256: 41435aea1171372bf2d8620f3df7fa9db2d09af2c6560c6bc463a153a3f9cedc
+SHA1: 301c24f9e178ba01587e88f55c990288924d085b
+MD5sum: 0fb57898b8161bd4a2fca03f9f98cd2c
+Description: Vendor package for: gz-plugin2 2.0.4 Gazebo Plugin : Cross-platform C++ library for dynamically loading plugins.
+
+Package: ros-jazzy-gz-plugin-vendor-dbgsym
+Source: ros-jazzy-gz-plugin-vendor
+Version: 0.0.5-0trixie+20260113183057
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Installed-Size: 2561
+Depends: ros-jazzy-gz-plugin-vendor (= 0.0.5-0trixie+20260113183057)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-gz-plugin-vendor/ros-jazzy-gz-plugin-vendor-dbgsym_0.0.5-0trixie+20260113183057_arm64.deb
+Size: 2231976
+SHA256: 7e1186d075ddae25ecfb7ccd49325ac0bf6a817c8a1dd20f31af4fbd68ab4b70
+SHA1: 1027975adc9af8676e0d3190ce09e455e7a83006
+MD5sum: 381bb4005f5691aeed78e60e04d9705b
+Description: debug symbols for ros-jazzy-gz-plugin-vendor
+Build-Ids: 5b625ac4b72562dc0eb04a24f4cef365d612dc68 894d5e985bd6e420005437d238b0ae732d195579 9b8ade98e1748bae47c39e3a4571bd2e7a0fe392
+
+Package: ros-jazzy-gz-rendering-vendor
+Version: 0.0.7-0trixie+20260114161104
+Architecture: arm64
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Installed-Size: 25234
+Depends: libc6 (>= 2.38), libegl1, libgcc-s1 (>= 3.0), libglx0, libogre1.12.10t64 (>= 1.12.10+dfsg1-1~), libopengl0, libstdc++6 (>= 13.1), ros-jazzy-gz-common-vendor, ros-jazzy-gz-math-vendor, ros-jazzy-gz-ogre-next-vendor, ros-jazzy-gz-plugin-vendor, freeglut3-dev, libfreeimage-dev, libglew-dev, libogre-1.12-dev, libvulkan-dev, libxi-dev, libxmu-dev, ros-jazzy-gz-cmake-vendor, ros-jazzy-gz-utils-vendor, uuid-dev
+Homepage: https://github.com/gazebosim/gz-rendering
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-gz-rendering-vendor/ros-jazzy-gz-rendering-vendor_0.0.7-0trixie+20260114161104_arm64.deb
+Size: 3591012
+SHA256: e6f10753d9dafbe2b20224ecef09af622a9ee79307cc02b6b4bd6c200896e4d5
+SHA1: 1a99e5829a1ef5006eda916038738650c75a5d33
+MD5sum: 3f84b753401df230bb04c84b569b5e76
+Description: Vendor package for: gz-rendering8 8.2.3 Gazebo Rendering: Rendering library for robot applications
+
+Package: ros-jazzy-gz-rendering-vendor-dbgsym
+Source: ros-jazzy-gz-rendering-vendor
+Version: 0.0.7-0trixie+20260114161104
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Installed-Size: 38062
+Depends: ros-jazzy-gz-rendering-vendor (= 0.0.7-0trixie+20260114161104)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-gz-rendering-vendor/ros-jazzy-gz-rendering-vendor-dbgsym_0.0.7-0trixie+20260114161104_arm64.deb
+Size: 37403652
+SHA256: aee03945ed5f3a6b24c9c5bc7c586ac2d533a97800b3b60f95e36e32aa512b66
+SHA1: 0f19c7c7043947459dd8341eb4b5d1d39fc900aa
+MD5sum: 13187223e55592c5b3b53fb19b984201
+Description: debug symbols for ros-jazzy-gz-rendering-vendor
+Build-Ids: 27b8ead72f66835943bcdb7fec75cfe81cd2da0a 3ffcf0b75f3e1f77ee9e87418899c38c237a7251 96538852a654afe9b0f706f66e1938e825b49070
+
+Package: ros-jazzy-gz-sensors-vendor
+Version: 0.0.6-0trixie+20260114170540
+Architecture: arm64
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Installed-Size: 3082
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1), ros-jazzy-gz-common-vendor, ros-jazzy-gz-math-vendor, ros-jazzy-gz-msgs-vendor, ros-jazzy-gz-rendering-vendor, ros-jazzy-gz-transport-vendor, ros-jazzy-sdformat-vendor, ros-jazzy-gz-cmake-vendor, ros-jazzy-gz-tools-vendor
+Homepage: https://github.com/gazebosim/gz-sensors
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-gz-sensors-vendor/ros-jazzy-gz-sensors-vendor_0.0.6-0trixie+20260114170540_arm64.deb
+Size: 342084
+SHA256: 97d4f2bfef3ded0f2875c2bcaed4eb75147061edfaaa799394aee32f37388b1f
+SHA1: 28ac1c48f26809cae2d2876c838c376819c4dae9
+MD5sum: 7bcc51fbc4bc92245bc07bc8d2141815
+Description: Vendor package for: gz-sensors8 8.2.2 Gazebo Sensors : Sensor models for simulation
+
+Package: ros-jazzy-gz-sensors-vendor-dbgsym
+Source: ros-jazzy-gz-sensors-vendor
+Version: 0.0.6-0trixie+20260114170540
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Installed-Size: 12359
+Depends: ros-jazzy-gz-sensors-vendor (= 0.0.6-0trixie+20260114170540)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-gz-sensors-vendor/ros-jazzy-gz-sensors-vendor-dbgsym_0.0.6-0trixie+20260114170540_arm64.deb
+Size: 12074996
+SHA256: f3ad0ec66f5c55046678476b110442ca3bb6fbf779c5e7abe2b7f990e96d8e3c
+SHA1: 6fbe3a8433a7e94f27815026774ce66116b28d18
+MD5sum: e9fe29f475d732a05a1ac1ed899104ac
+Description: debug symbols for ros-jazzy-gz-sensors-vendor
+Build-Ids: 1244bc579bc3f522238b374d4c69a22671a10251 1f0fc5ccc719d5f2b9456e59b180432d83d9dc52 2c0ef8cdcb8d9939f854137d80ebec6ed759f360 4cbfbc30e9edb913442977708825a5c209360795 541289ca473bc0e4965028edbd8896f7eee27add 65e4edc764f5d47e0767da621117572648e8ecb8 8299ad9524a7cf264d368066980203565e132be8 92e1a595ba7940efebb5c07f9cbda616879575d2 a1c0192eb30dd79fe772bbf9fb5c27973e1969d9 a67950271cd4fe019d4cbab4d7f8946b3583590f a7c91632526b1ee16dcac26d05d7f17819ec1d99 aabf96eac8f04f5d30d6496e2ce70c0dac3214a8 b469f026c11a57b670a279714f52b5885ef579a9 c8b5b98d78e7a35ab199b5e7a2a635a401ab38bd cd70c02909b4423ca177297a1bcf3c3b4efd1017 cf3b760d04db3f7935412053f4f947d30256f06e eb76e0b9507010d9351b415eb34db06c908feb08 ef092cd7e3de6f983de25341a11a9cdc0ea72b7c f3211dd26352356febc0113905638f034aa9c258 fd5fbf70cf43bb44722418ac18b19780bfd6c1e7
+
+Package: ros-jazzy-gz-sim-vendor
+Version: 0.0.9-0trixie+20260115110501
+Architecture: arm64
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Installed-Size: 69434
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libprotobuf32t64 (>= 3.21.12), libqt5core5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5widgets5t64 (>= 5.0.2), libstdc++6 (>= 14), libtinyxml2-11 (>= 11.0.0), ros-jazzy-gz-common-vendor, ros-jazzy-gz-fuel-tools-vendor, ros-jazzy-gz-gui-vendor, ros-jazzy-gz-math-vendor, ros-jazzy-gz-msgs-vendor, ros-jazzy-gz-physics-vendor, ros-jazzy-gz-plugin-vendor, ros-jazzy-gz-rendering-vendor, ros-jazzy-gz-sensors-vendor, ros-jazzy-gz-transport-vendor, ros-jazzy-sdformat-vendor, freeglut3-dev, libbenchmark-dev, libfreeimage-dev, libglew-dev, libprotobuf-dev, libprotoc-dev, libtinyxml2-dev, libxi-dev, libxmu-dev, protobuf-compiler, pybind11-dev, qml-module-qt-labs-folderlistmodel, qml-module-qt-labs-settings, qml-module-qtgraphicaleffects, qml-module-qtquick-controls, qml-module-qtquick-controls2, qml-module-qtquick-dialogs, qml-module-qtquick-layouts, qml-module-qtquick2, qtbase5-dev, qtdeclarative5-dev, ros-jazzy-gz-cmake-vendor, ros-jazzy-gz-tools-vendor, ros-jazzy-gz-utils-vendor, uuid-dev
+Homepage: https://github.com/gazebosim/gz-sim
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-gz-sim-vendor/ros-jazzy-gz-sim-vendor_0.0.9-0trixie+20260115110501_arm64.deb
+Size: 10268864
+SHA256: 25aa4c763db00d3aa86c831a41aa8bc0e0fd706a112760b2c2379f7b9c4db5b0
+SHA1: 552c830b0723ea3cf42b95103fe06e836483a67d
+MD5sum: a64908edb1f36b0b4a8fb0a049d93a52
+Description: Vendor package for: gz-sim8 8.10.0 Gazebo Sim : A Robotic Simulator
+
+Package: ros-jazzy-gz-sim-vendor-dbgsym
+Source: ros-jazzy-gz-sim-vendor
+Version: 0.0.9-0trixie+20260115110501
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Installed-Size: 203120
+Depends: ros-jazzy-gz-sim-vendor (= 0.0.9-0trixie+20260115110501)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-gz-sim-vendor/ros-jazzy-gz-sim-vendor-dbgsym_0.0.9-0trixie+20260115110501_arm64.deb
+Size: 192144264
+SHA256: 13300ed49b430d72f8425127434c33515f0f3bcbc1fc7fafe61730a74e0ffe5f
+SHA1: 24f59128bf973fd5767345c6bfe51f9675446da9
+MD5sum: 91a369808e1e18acea356b6b342d6e1d
+Description: debug symbols for ros-jazzy-gz-sim-vendor
+Build-Ids: 01080f8c52289b93e689377a4fd3fadbd92497cc 01902282371a30b604d5eff27eedb23b052a9292 0226fa8bad57d233a1172592b12d8fb18430e6df 028c4f5444628c0a1dea258fea2c2b925bcefb00 034e9e67df803b1eea675718df9deed887b4c7ee 08b26f0d6995b2df8fb988bd5ea2d6badb3d5a48 0a9e9ff400aaa0454da05769e3ca3f1d9ccfd12a 11e159b6f52b191654c7c4114de3de131cbc18ad 1288b435bfc6b7c966a01d79bb60abdeacb46979 12e6849c358067c99114c8da1be3ae182393d685 15b806396c80637cef01f054d3a48acc1fbe6bff 15d818e25a1d8a8d224002b8801125c479896f35 163aa56a4af4347d2e44d3d15942539958b50284 16afff487470c2ced8b666531a20274f809be4e7 1e070a52cfb77d4bcd21c1c34bc9d1dfe3f61a4a 1e72f1457c0a8504fd85413a4ff1362ff808c42b 1f4abb9e05eb5adf51147bfb95fec5864f2c4318 1fe20bcde9c99e30e2fcd8911290383cef5d16e2 240756cb180809cb2648fb9ecfc10d180a759b3c 24321f69630b700a0b2db60f74bb7bbf8aa638bf 25c7ae100fd74b0a4e58c55f86e9c74a32e52343 2914547bdefa1898fb825c953d11a764571d5f02 29d97958073eb29ce99487de8421e27a3780c01d 2b781b58b07e288949d7cf3a7ae51b08b29f9bfc 2c67f93beb15723f968c2eb3f68c82428e6e2055 2d98715bcf084221aa99ef414488df3269592d7c 2eb02e01fd22d61153efea312ae9147c547a5650 33ba56fd6bee5f3d5f3f714389c9a4935a010f46 34c6652f353ce95f2d7b0bcccd73dd090586ec2c 3b662887ca39bb01ec14d87b9355b252db066d15 3e4d674cb165cef3a81c5a2a948c98d222712a3b 42014b30be8b10b4737c48458889653f7a168837 423bd64f882b7ed94122aac7fbdda961123b4ba8 424593d3ce776db3a6317d6b817767471290d352 441689400ce87f90951959d3d9154ca742923683 445101fe204871823e1dcc4f4cb8a7ca9bd13d8a 45ba4a53207264c2869c3c530cce6e7f4b93d662 4644bc1766e8ad5ec35d9ba65b15ebf5a68a168e 473c6e5840840bc1b894241741a6637d919ce2bd 4a03d160ea26bf5f222aff6440ee0dc9883b036a 4e281f219034d2821a48ca8e7298574bf1dc69ea 4ed69d46a680802aaee2b79a1a14d5ead89ba922 56119c180b47654b82553b923272e2857cccf2ac 5627ca87c91c3005cb3e71243fc711ae440dc4e4 569a71c1dfb893d082042be367782ab647bf5d73 573a69c2bb371fbe70d7086013a1e8cf180f11e9 576caa6a408a357267c168d04abe5061846afb46 57f4e15733cb76b0461c09de394502f61bdcfc8b 58106bc1f8941f63241d7739647e37d699dfc916 626bf0eaf73f867e412fbf7c23df72e97982e00d 63743003184e64979015db91f4cbe65f7dac0f3a 64510c4c50f2b20eef32cf8abfd214c3c3e4708c 6b16c3e2264dc41b7c0d598f8a36ef6c6e04e197 6ec406de5561ea31aa0fd1cd56297a9782214d7d 76228dbc1598590fbd5fc0792b15689b69d34891 76f0b177d18ac3b523ff7629ef7c327a2a0a2d50 7c4892480a8134d1d6b1b596194a2136ea1f2ff7 7ed5b90b37eae791ea14bf34cc3ef19cf9650fa3 88fe920c09d5c96283b570238c2d0ba443c57375 8a8fe699bedada6460c8d0e47d6d450c6ed02186 8f120a864cdc6268307f3fa7cb8d6463dc180c54 97a93985b67443aebff3d56a075b448f5403e6e5 9a52484b70a83d1110f4c26f085225496e5d47e1 9b956041edbb5433e65a4dfb39dc262236898c90 9bdb4ea9e7e3af0e981e67dd0cd0784a373a7742 9f0381f995eb3a307445e7fc1e48a9e5a9c4eabc a3677e20ee78ec48a259421c967d8b3c1caf6ba9 a4786d55a8c89fb32f8b55d7673123efcb37b98a a8bac0bbe7cfaf0216b8a41b2846fe3d590a4ecf aa8e609c74ac3327442ef6d7e36c8609a358acf1 aab878a3a32ea426826646a6919914364747f98f af1bf22a1a16c52f43d883051a76cd2e9f31fedd b09dc1b97089537b845f738c6aecccb5cd7b53c8 b0c0e7572eb22c9d6762d4a587b13d0931f84f46 b24d1b3322b33ca4fde43acd29e738f9e30a5148 b44f5e109d3a653b3d8784c941f029a0a46a8d50 b63d8db71a382fba810d4c2b31789596bc795cee b9805e1d77f800f62eaeaebcbbdbca29bedc9328 b9a0d98413fc02263fe81b71fd1e75036599bd15 bd4589e72e2923514fe62cbb602ca49dd3566b46 bf300aaf514902af2cdb3293b6622f2b42c58a92 c147e0513d625a19146e9d66d40d8dab152cdc34 c91e1f3c95692d80aa1da8ee63601fcd8f19bcb8 cc5f1919976b80bcaab7d587dd58883ba5e2878b d3373139e07f758113179a64843bfe87947d937d d52181a3f8deb8e742eb57cf57aab9aa0ecb4fb5 d93ea050c470fe17d628bb7442c569252a38fb1e da785fe653ec6d81af157cf821e091509f4b8560 dc44165c130eccae8aa3913944a773273091443e dc6008677849f14697ab8f81fa3400dffa19d8a8 dd4ea1dc6947c08be23d136e5aaea11146eedc8d dfdbe8dd23f8b6f97e8c0855ef492838e3d2d181 e3cb641091246a3ac37c1808bfa08f75602909dc e581e0a7107c65fc78d2582fc6e08fe77ce05ad7 e694f24b8f20923ba9e778625ed6f59e3a84af91 e9aec427cfcf8ab7ce13e4e3fc8df6581cd2de96 eb3823d861af2d6a0f9d0470e9a8407f0636bb36 eb7864d6b60fa959f3e473de14ed0a662b74188f ee18c48924cf3b1ed63c3bc29d87578ae1ca4b22 f02fc682e88a18a75b8fb6e71491cdfd851316fe f7b7591df1ccb797297618879f189bcb07ff2eb5 fad6380c6fd42aa1568b0b2d8f8267171257bd25 fae1675fb4eb9bb0c3f401e59a099b27885eccd2 fced966111c30854d91f2c1826b5e57c2a28dccb
+
 Package: ros-jazzy-gz-tools-vendor
 Version: 0.0.7-0trixie+20260111143657
 Architecture: arm64
@@ -3573,6 +4132,40 @@ SHA1: 35617baa3e0a64f602c2389d3b988d0e6bcd9410
 MD5sum: 7a1230562343dd1b185c27dadaf32528
 Description: debug symbols for ros-jazzy-gz-tools-vendor
 Build-Ids: e76b1bf1d4b8571fc61468057b1c71c0dfe01f1a
+
+Package: ros-jazzy-gz-transport-vendor
+Version: 0.0.7-0trixie+20260114111136
+Architecture: arm64
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Installed-Size: 2732
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libprotobuf32t64 (>= 3.21.12), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 14), libuuid1 (>= 2.16), libzmq5 (>= 4.0.1+dfsg), ros-jazzy-gz-msgs-vendor, cppzmq-dev, libprotobuf-dev, libprotoc-dev, libsqlite3-dev, libzmq3-dev, pkg-config, protobuf-compiler, pybind11-dev, python3-dev, python3-psutil, python3-pytest, ros-jazzy-gz-cmake-vendor, ros-jazzy-gz-math-vendor, ros-jazzy-gz-tools-vendor, ros-jazzy-gz-utils-vendor, uuid-dev
+Homepage: https://github.com/gazebosim/gz-transport
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-gz-transport-vendor/ros-jazzy-gz-transport-vendor_0.0.7-0trixie+20260114111136_arm64.deb
+Size: 478616
+SHA256: 60cfa8945d1f850204275e16a57f57d1f3041ec45cbfe945a67725e1248cdad3
+SHA1: cd90f3de78226a9dc4e59e3d83267467ad789080
+MD5sum: a9f20eadfd5c76beaf33796a44a46a51
+Description: Vendor package for: gz-transport13 13.5.0 Gazebo Transport: Provides fast and efficient asynchronous message passing, services, and data logging.
+
+Package: ros-jazzy-gz-transport-vendor-dbgsym
+Source: ros-jazzy-gz-transport-vendor
+Version: 0.0.7-0trixie+20260114111136
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Installed-Size: 11554
+Depends: ros-jazzy-gz-transport-vendor (= 0.0.7-0trixie+20260114111136)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-gz-transport-vendor/ros-jazzy-gz-transport-vendor-dbgsym_0.0.7-0trixie+20260114111136_arm64.deb
+Size: 10522332
+SHA256: 64447ba04a19833cc863c722cac3b8c6454535522a52b224ec97f2e391e2ec81
+SHA1: 1a8d1ef29d4b3172d7daeaef3404596a5864bd86
+MD5sum: b53a1a85ee255217c33c5066caee9ca4
+Description: debug symbols for ros-jazzy-gz-transport-vendor
+Build-Ids: 49101b8a650c14eac9631b1690b74396929d83f1 66243a4321267c702806a47c67b41be54daaa593 8588c1fed6f7d6ac39df616bedc95b959d1ba848 9bafefbe1f9bbd1140ecefb8f849cddf0d9a86de a7d3617f900aa1f30beeec98620c87e0ff622a20
 
 Package: ros-jazzy-gz-utils-vendor
 Version: 0.0.5-0trixie+20260111145400
@@ -6869,6 +7462,168 @@ SHA1: d28fa2635f4ead31768327f301b284442c3dc18c
 MD5sum: 5697da1caf407911853e304a288043bf
 Description: The package provides the environment variables `ROS_VERSION` and `ROS_DISTRO`.
 
+Package: ros-jazzy-ros-gz
+Version: 1.0.18-0trixie+20260113183447
+Architecture: arm64
+Maintainer: Aditya Pande <adityapande@intrinsic.ai>
+Installed-Size: 46
+Depends: ros-jazzy-ros-gz-bridge, ros-jazzy-ros-gz-image, ros-jazzy-ros-gz-sim, ros-jazzy-ros-gz-sim-demos
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-ros-gz/ros-jazzy-ros-gz_1.0.18-0trixie+20260113183447_arm64.deb
+Size: 7344
+SHA256: fd6dbb01735bff60a9fc5c537b7e1410fd6fb78d1def07e46a178de6d46d341d
+SHA1: 5fee583a21a402a9acca7a7134716e37a868511d
+MD5sum: e9369b634aa6715a936dea6ee053ce4e
+Description: Meta-package containing interfaces for using ROS 2 with Gazebo simulation.
+
+Package: ros-jazzy-ros-gz-bridge
+Version: 1.0.18-0trixie+20260116112454
+Architecture: arm64
+Maintainer: Aditya Pande <adityapande@intrinsic.ai>
+Installed-Size: 25777
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.0), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 14), libyaml-cpp0.8 (>= 0.8.0+dfsg-7), ros-jazzy-gz-msgs-vendor, ros-jazzy-gz-transport-vendor, ros-jazzy-actuator-msgs, ros-jazzy-geometry-msgs, ros-jazzy-gps-msgs, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-nav-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-ros-gz-interfaces, ros-jazzy-rosgraph-msgs, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-tf2-msgs, ros-jazzy-trajectory-msgs, ros-jazzy-vision-msgs, ros-jazzy-yaml-cpp-vendor
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-ros-gz-bridge/ros-jazzy-ros-gz-bridge_1.0.18-0trixie+20260116112454_arm64.deb
+Size: 1971192
+SHA256: 63e6fabd9b5311fead6a2439579892dfbeefbef467df15c73553af9540c53438
+SHA1: 39903acef19769e67b101529bae30be605693b5d
+MD5sum: ebf3bbb851401e587f03c6205ad5eb75
+Description: Bridge communication between ROS and Gazebo Transport
+
+Package: ros-jazzy-ros-gz-bridge-dbgsym
+Source: ros-jazzy-ros-gz-bridge
+Version: 1.0.18-0trixie+20260116112454
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Aditya Pande <adityapande@intrinsic.ai>
+Installed-Size: 83745
+Depends: ros-jazzy-ros-gz-bridge (= 1.0.18-0trixie+20260116112454)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-ros-gz-bridge/ros-jazzy-ros-gz-bridge-dbgsym_1.0.18-0trixie+20260116112454_arm64.deb
+Size: 69680068
+SHA256: 1def36e3f2b0102c7fa10d420e2e245c5360430eb1b9aa0193d38a774e52950e
+SHA1: 80877fba2351ee3d3a069e141f9e10eb4cf3a1cd
+MD5sum: db550d9dee0c92da3cf03e61880ce986
+Description: debug symbols for ros-jazzy-ros-gz-bridge
+Build-Ids: 092feddbdd900c349dc5bf97a4753965788c7e4b 25e5001c3d6436fc98546cf68796ae2dd16a3bf6 3932dddb14e7d60da3c56baf956e9ad048be964f 93fc6d2b223e1dc6433576bda72482c1ca4df363 fd7e731758ab3cf2f1519b3272c20f3275f6562a
+
+Package: ros-jazzy-ros-gz-image
+Version: 1.0.18-0trixie+20260116163554
+Architecture: arm64
+Maintainer: Aditya Pande <adityapande@intrinsic.ai>
+Installed-Size: 115
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1), ros-jazzy-gz-msgs-vendor, ros-jazzy-gz-transport-vendor, ros-jazzy-image-transport, ros-jazzy-rclcpp, ros-jazzy-ros-gz-bridge, ros-jazzy-sensor-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-ros-gz-image/ros-jazzy-ros-gz-image_1.0.18-0trixie+20260116163554_arm64.deb
+Size: 26568
+SHA256: 6a108cbd300bd1df6564ac63fdf4e61d8d86125e80eeadc5422f5709a427d7c2
+SHA1: 996ec69f414361cc1669420e32d1edfe56a4408a
+MD5sum: 63ccd01b4b8405e6f561e012f8f52c73
+Description: Image utilities for Gazebo simulation with ROS.
+
+Package: ros-jazzy-ros-gz-image-dbgsym
+Source: ros-jazzy-ros-gz-image
+Version: 1.0.18-0trixie+20260116163554
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Aditya Pande <adityapande@intrinsic.ai>
+Installed-Size: 600
+Depends: ros-jazzy-ros-gz-image (= 1.0.18-0trixie+20260116163554)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-ros-gz-image/ros-jazzy-ros-gz-image-dbgsym_1.0.18-0trixie+20260116163554_arm64.deb
+Size: 515860
+SHA256: e23ddd561e0aaaa725cb7b5b568c41410021ac63aa31e9fc10416457129507eb
+SHA1: 38d8a06787b4482927c2c940824fd10b824e310d
+MD5sum: f22afb1278e66dc42c1405e41144d1d4
+Description: debug symbols for ros-jazzy-ros-gz-image
+Build-Ids: 131abab2495854354ae7c2ec6e6373a0f11791a6
+
+Package: ros-jazzy-ros-gz-interfaces
+Version: 1.0.18-0trixie+20260113183635
+Architecture: arm64
+Maintainer: Aditya Pande <adityapande@intrinsic.ai>
+Installed-Size: 5446
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libpython3.13 (>= 3.13.0~rc3), libstdc++6 (>= 11), ros-jazzy-fastcdr, ros-jazzy-builtin-interfaces, ros-jazzy-geometry-msgs, ros-jazzy-rcl-interfaces, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-ros-gz-interfaces/ros-jazzy-ros-gz-interfaces_1.0.18-0trixie+20260113183635_arm64.deb
+Size: 347152
+SHA256: b0c98b5fdc822cc2d59b68b7d524a9ec11268e7102af7848522b9e3c26dfe201
+SHA1: c97106cc37ddf3873c04d0a96b82c414c5162995
+MD5sum: 59372cf5a886c036eee97ace4e1daa42
+Description: Message and service data structures for interacting with Gazebo from ROS2.
+
+Package: ros-jazzy-ros-gz-interfaces-dbgsym
+Source: ros-jazzy-ros-gz-interfaces
+Version: 1.0.18-0trixie+20260113183635
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Aditya Pande <adityapande@intrinsic.ai>
+Installed-Size: 4119
+Depends: ros-jazzy-ros-gz-interfaces (= 1.0.18-0trixie+20260113183635)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-ros-gz-interfaces/ros-jazzy-ros-gz-interfaces-dbgsym_1.0.18-0trixie+20260113183635_arm64.deb
+Size: 3565560
+SHA256: 72a7c00d09e873d6e025695e20e738c7eea0384cb686883c167bd91fd8060ff4
+SHA1: b2e79a08251d216e3de02ecab8002534b2643bd1
+MD5sum: 1c6601d156c076edc57bc0f81e921edf
+Description: debug symbols for ros-jazzy-ros-gz-interfaces
+Build-Ids: 00db60e8d3e517d57be53331f80fe1a5a792e28c 08052f920df05c56ba8e0b861036e85b7752557d 3b663d892e45b0f2acb716ae97400ca9da75c625 836dd1f5dc22dfa37486561e58b241dcb8f94905 918cf82dd02a459d8ed5932863628428e7fab99d cc5674c033a2d913e53aceefa81be667ce429b4a cf4f0a952905edb8c8d7c8d74e1f955688a7bff7 d429202964fa5f219da159fc477baa6ff87745aa d48815a9084c26050c06e1773511a3df724c3aaf e613318b4e554f50f9b4bc0368766f2279470a24 ec2b5d1a28958b56c76f58cb61b3565007edac53
+
+Package: ros-jazzy-ros-gz-sim
+Version: 1.0.18-0trixie+20260117162105
+Architecture: arm64
+Maintainer: Aditya Pande <adityapande@intrinsic.ai>
+Installed-Size: 5279
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.0), libgflags2.2 (>= 2.2.2), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 14), ros-jazzy-gz-common-vendor, ros-jazzy-gz-msgs-vendor, ros-jazzy-gz-sim-vendor, ros-jazzy-gz-transport-vendor, ros-jazzy-sdformat-vendor, libcli11-dev, libgflags-dev, ros-jazzy-ament-index-python, ros-jazzy-builtin-interfaces, ros-jazzy-geometry-msgs, ros-jazzy-gz-math-vendor, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-rclcpp, ros-jazzy-rclcpp-action, ros-jazzy-rclcpp-components, ros-jazzy-rcpputils, ros-jazzy-ros-gz-interfaces, ros-jazzy-simulation-interfaces, ros-jazzy-std-msgs, ros-jazzy-tf2, ros-jazzy-tf2-ros
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-ros-gz-sim/ros-jazzy-ros-gz-sim_1.0.18-0trixie+20260117162105_arm64.deb
+Size: 694060
+SHA256: ebcc0a6ab66f29eedc081de5339a04ae75257f9b05f2a8042ae72196f56ea53f
+SHA1: f483d44a57fb93620dfcf1a904859a1e2d7e78eb
+MD5sum: fbf27477827c09feb0420d26a2bb5c5f
+Description: Tools for using Gazebo Sim simulation with ROS.
+
+Package: ros-jazzy-ros-gz-sim-dbgsym
+Source: ros-jazzy-ros-gz-sim
+Version: 1.0.18-0trixie+20260117162105
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Aditya Pande <adityapande@intrinsic.ai>
+Installed-Size: 28938
+Depends: ros-jazzy-ros-gz-sim (= 1.0.18-0trixie+20260117162105)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-ros-gz-sim/ros-jazzy-ros-gz-sim-dbgsym_1.0.18-0trixie+20260117162105_arm64.deb
+Size: 25868948
+SHA256: 83c954c78e172e36ac4239b99f13b48f82fb835d5d8b57f7e1922f225776e31a
+SHA1: 4abcf5eaaa0e127ea5aa2d09b78e90dc8d2e0c8f
+MD5sum: 4dc5f670962765a02750763de9beb6e5
+Description: debug symbols for ros-jazzy-ros-gz-sim
+Build-Ids: 4027584c74fa9bc230f7aaa45fefb176f7649b5b 6772e1669dc187829589b72a98d0fddb7de3047b 67869e60fbdfb33dcb3ebfd4fba466fd62cc26f4 878de662efce32d199e72a88abce43439f992575 956fd2c93843b54f23f1c1f73674ccfc21a6215b 9658f900df5dee6a8b4e9eb1dd0be88a0495c43e b5c9847f232fedba5a112bd70dc5219cb306a35b c3d7cae51faef75de4d08ccd3fc2d7ab454117bc ccd4fa5df6f4b5d7d3b78a1e71dd4d0d3165f292 dc38834c489f0d9926790c5a6139f12f0bdebf2b ea9380cb6e8ab566277e0d209eb824eebd566266
+
+Package: ros-jazzy-ros-gz-sim-demos
+Version: 1.0.18-0trixie+20260115114531
+Architecture: arm64
+Maintainer: Aditya Pande <adityapande@intrinsic.ai>
+Installed-Size: 1252
+Depends: ros-jazzy-gz-sim-vendor, ros-jazzy-image-transport-plugins, ros-jazzy-robot-state-publisher, ros-jazzy-ros-gz-bridge, ros-jazzy-ros-gz-image, ros-jazzy-ros-gz-sim, ros-jazzy-rqt-image-view, ros-jazzy-rqt-plot, ros-jazzy-rqt-topic, ros-jazzy-rviz2, ros-jazzy-sdformat-urdf, ros-jazzy-xacro
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-ros-gz-sim-demos/ros-jazzy-ros-gz-sim-demos_1.0.18-0trixie+20260115114531_arm64.deb
+Size: 925200
+SHA256: b002b3e263afd4e79c10e88bdd15024a901fd07d71c7194fd11d06948cd38f99
+SHA1: e9658c7c28221fd6c3fdaff779b737155d6ef2fd
+MD5sum: cc9572bb246eff8ff5d395a82b806757
+Description: Demos using Gazebo Sim simulation with ROS.
+
 Package: ros-jazzy-ros-testing
 Version: 0.6.0-0trixie+20260107234731
 Architecture: arm64
@@ -9431,6 +10186,39 @@ SHA1: 6003eb84b8080c643541a4b1efe92e47611d5d50
 MD5sum: b47c8dcb7563e25e935b85d156ae4f0c
 Description: A package which extends 'ros_base' and includes simulation packages.
 
+Package: ros-jazzy-simulation-interfaces
+Version: 1.2.0-0trixie+20260116165048
+Architecture: arm64
+Maintainer: Adam Dabrowski <adam.dabrowski@robotec.ai>
+Installed-Size: 13223
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libpython3.13 (>= 3.13.0~rc3), libstdc++6 (>= 11), ros-jazzy-fastcdr, ros-jazzy-builtin-interfaces, ros-jazzy-geometry-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-simulation-interfaces/ros-jazzy-simulation-interfaces_1.2.0-0trixie+20260116165048_arm64.deb
+Size: 728952
+SHA256: 1dec60976ce2639aeb71b758b41acaec0aa18c397f880f36c8a2353b3b1363b7
+SHA1: d3187f8462a87921eb4a6106caf9cab1075c849c
+MD5sum: 25f3eaacf1ee303efed6ce7c694e270a
+Description: A package containing simulation interfaces including messages, services and actions
+
+Package: ros-jazzy-simulation-interfaces-dbgsym
+Source: ros-jazzy-simulation-interfaces
+Version: 1.2.0-0trixie+20260116165048
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Adam Dabrowski <adam.dabrowski@robotec.ai>
+Installed-Size: 10075
+Depends: ros-jazzy-simulation-interfaces (= 1.2.0-0trixie+20260116165048)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-simulation-interfaces/ros-jazzy-simulation-interfaces-dbgsym_1.2.0-0trixie+20260116165048_arm64.deb
+Size: 8578044
+SHA256: 02407ddc4c5353de24d56b78bf1cc19fbf77dd9e104790b56dac75085b82a281
+SHA1: e2439938fe45bb216e9a8c8ce9616dc17ae534e3
+MD5sum: 96173b4ea326417a555744da571af0e7
+Description: debug symbols for ros-jazzy-simulation-interfaces
+Build-Ids: 13a629e1d56438da3762a746f76d4fba2d489a19 25c1d3a6a7f6410ae2c33f42bc85aa5e7d5c4fe6 4628f6e98fd5485074dc9c81c04759ad5a3bcb18 4d9849253a4416a77f2e9a801e01ba0d7ae650fb 4dd72c5fc205b60d631bcda854d8cb4fb05c3769 56591112465a7cc2e5cd9882b443fb2c99acd00d 7954748259118bb8ad6c872067086ca39d8d6521 8183f51e1f061c1c73a648d6efa10dcc45b02d1f cebff9e5c7f85e48744163f0606c1338a2238689 e9bf6bb95c248b0dc3247c4117cf6b05bbc78d60 f59a5886e213c5d984d34f13283b0c32ba27038a
+
 Package: ros-jazzy-spacenav
 Version: 3.3.0-0trixie+20260111223900
 Architecture: arm64
@@ -10020,6 +10808,21 @@ SHA256: a78ffee277bfea1f37cc3511fa4241b2991a5e6cbc84a976bbdf781126d6f625
 SHA1: 008b8d05d2343487d8790825a68e798d618dfcf9
 MD5sum: 6fdd97dfd9bea24b01a73603e46469bc
 Description: Test suite for ROS middleware API.
+
+Package: ros-jazzy-test-ros-gz-bridge
+Version: 1.0.18-0trixie+20260116130843
+Architecture: arm64
+Maintainer: Aditya Pande <adityapande@intrinsic.ai>
+Installed-Size: 44
+Depends: ros-jazzy-ros-gz-bridge
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-test-ros-gz-bridge/ros-jazzy-test-ros-gz-bridge_1.0.18-0trixie+20260116130843_arm64.deb
+Size: 5648
+SHA256: 1fc6962997fd746ba6d6ed7c3930a053dd976ca7e0c5fb339e3f79f72db4d154
+SHA1: 89bc1a06a89e1cf0db6bc86a63316f10bd003f22
+MD5sum: a5a4b181df3c6a22d944fbf1a4233c55
+Description: Bridge communication between ROS and Gazebo Transport
 
 Package: ros-jazzy-test-ros2trace
 Version: 8.2.4-0trixie+20260108222822
@@ -11039,6 +11842,72 @@ SHA1: 6c7f97c225dad7e5d9c6e54f8fc4800628fd0b21
 MD5sum: ce85f24daf0a7bfdbeca59d59c48c08e
 Description: debug symbols for ros-jazzy-velocity-controllers
 Build-Ids: 4544ee58f60024a3595fc17408a2c83bf9dcd7b8
+
+Package: ros-jazzy-vision-msgs
+Version: 4.1.1-0trixie+20260115224948
+Architecture: arm64
+Maintainer: Adam Allevato <adam.d.allevato@gmail.com>
+Installed-Size: 2820
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libpython3.13 (>= 3.13.0~rc3), libstdc++6 (>= 11), ros-jazzy-fastcdr, ros-jazzy-geometry-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-vision-msgs/ros-jazzy-vision-msgs_4.1.1-0trixie+20260115224948_arm64.deb
+Size: 170460
+SHA256: 6d29928c9a1bd32c1cdcb11339e6dfc27bcdff0384460e10dcf767902ba61e43
+SHA1: 548fb2818971b20af57f49a6fd135a91fedd1dd5
+MD5sum: 3d0f3a00f606686f4a8c19c36266ac06
+Description: Messages for interfacing with various computer vision pipelines, such as object detectors.
+
+Package: ros-jazzy-vision-msgs-dbgsym
+Source: ros-jazzy-vision-msgs
+Version: 4.1.1-0trixie+20260115224948
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Adam Allevato <adam.d.allevato@gmail.com>
+Installed-Size: 2093
+Depends: ros-jazzy-vision-msgs (= 4.1.1-0trixie+20260115224948)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-vision-msgs/ros-jazzy-vision-msgs-dbgsym_4.1.1-0trixie+20260115224948_arm64.deb
+Size: 1811192
+SHA256: a9e8565cb96641c211d8c5f38d4977e1b28c9dc4ba84047cc4182b2c18a21246
+SHA1: d035d7483a0c6b980aa9aa7bec454a86437247c9
+MD5sum: 17cfc1a4953770debaec689e689ec6ba
+Description: debug symbols for ros-jazzy-vision-msgs
+Build-Ids: 016a27a2ac37864be82fca11ee35694c6d5cb6f2 0c253bec5c3194690bd1e1811481b24f253c1b0f 188886c2136c0b07b149716e708071c18af10906 327714bb74240862554cb2f1d3f5cc72e13ebc98 3fd5a89ebd0fbcc6bbe49d0389cea8ff92461149 4b96a2f2b2c966db6461996f7963ad11bbaeb889 5ac75c8752c241cba9eef9b9d129af5fc84cddf7 9d4b79796bbce510475f7bc7ce8239fffcba36e9 b34670885e52733451c578362149a078bbc6c037 b4ad174695c237444c977195f3a47fc80b2afe79 ee89eb0097fb34e8b8289fdfefacaf42774e5174
+
+Package: ros-jazzy-vision-msgs-rviz-plugins
+Version: 4.1.1-0trixie+20260115225335
+Architecture: arm64
+Maintainer: Georg Novotny <georg.novotny@aon.at>
+Installed-Size: 2085
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.5.0), libqt5gui5t64 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libstdc++6 (>= 14), libyaml-cpp0.8 (>= 0.8.0+dfsg-7), python3-numpy, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclpy, ros-jazzy-rviz-common, ros-jazzy-rviz-default-plugins, ros-jazzy-rviz-rendering, ros-jazzy-rviz2, ros-jazzy-vision-msgs, ros-jazzy-yaml-cpp-vendor
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-vision-msgs-rviz-plugins/ros-jazzy-vision-msgs-rviz-plugins_4.1.1-0trixie+20260115225335_arm64.deb
+Size: 246480
+SHA256: 7948076c68e24b7b843a2f8252eebfcf38c48c89adc9c2eadead04962e67dd1d
+SHA1: a12f8a38eade9ef12dd65cc2912ba3870bf0fcd7
+MD5sum: 94476c3c3acd604174676b6bb2c4960b
+Description: RVIZ2 plugins for visualizing vision_msgs
+
+Package: ros-jazzy-vision-msgs-rviz-plugins-dbgsym
+Source: ros-jazzy-vision-msgs-rviz-plugins
+Version: 4.1.1-0trixie+20260115225335
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Georg Novotny <georg.novotny@aon.at>
+Installed-Size: 14234
+Depends: ros-jazzy-vision-msgs-rviz-plugins (= 4.1.1-0trixie+20260115225335)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-jazzy-vision-msgs-rviz-plugins/ros-jazzy-vision-msgs-rviz-plugins-dbgsym_4.1.1-0trixie+20260115225335_arm64.deb
+Size: 13546548
+SHA256: ccbdcb998e5b1c3ac91da2d4cc1110665f84f0c49c717d142e80e6fc4cafc50d
+SHA1: d4234aace950b9294bef02050d6239e2b423b3a5
+MD5sum: adacd1ac758d6b9fbb633d71a47cca71
+Description: debug symbols for ros-jazzy-vision-msgs-rviz-plugins
+Build-Ids: 9a3d14892039c7a7d55a0c60f42f7f648afc2c48
 
 Package: ros-jazzy-vision-opencv
 Version: 4.1.0-0trixie+20260112115647
